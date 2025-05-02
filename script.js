@@ -902,7 +902,7 @@ document.getElementById("submitBtn").addEventListener("click", () => {
 
   let message = `შენი ქულაა: <span>${score}/${questions.length}</span><br>`;
   if (score < 20) {
-    message += `<br><span style="color:red;">ვწუხვარ, დანძრეული გაქვთ!</span>`;
+    message += `<br><span style="color:red;">ვწუხვარ, თქვენ ჩაიჭერით!</span>`;
   } else {
     message += `<br><span style="color:green;">გილოცავ, გადასარევად გაართვი თავი!</span>`;
   }
