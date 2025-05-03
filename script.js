@@ -900,7 +900,7 @@ const allQuestions = [
 
 const questions = allQuestions
   .sort(() => Math.random() - 0.5)
-  .slice(0, 30);
+  .slice(0, 20);
 
 const form = document.getElementById("testForm");
 
